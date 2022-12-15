@@ -13,7 +13,7 @@ import seedRouter from "./routes/seedRoutes.js";
 import "./db-connect.js";
 import { config } from "./config.js";
 
-const port = config.PORT || 4589;
+const port = config.PORT || 65437;
 
 const app = express();
 
